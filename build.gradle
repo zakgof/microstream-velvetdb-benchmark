@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'com.zakgof'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.github.zakgof:velvetdb-xodus:0.10.2'
+    implementation 'com.github.zakgof:velvetdb-core:0.10.2'
+    implementation 'com.github.zakgof:velvetdb-serializer-kryo:0.10.2'
+
+    implementation 'one.microstream:microstream-storage-embedded:08.01.00-MS-GA'
+    implementation 'one.microstream:microstream-storage-embedded-configuration:08.01.00-MS-GA'
+
+    compileOnly 'org.projectlombok:lombok:1.18.26'
+    annotationProcessor 'org.projectlombok:lombok:1.18.26'
+
+    implementation 'commons-io:commons-io:2.13.0'
+}
