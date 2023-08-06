@@ -3,8 +3,8 @@
 
 Comparing performance of a key-value lookup in 3 million records.
 
-| Framework  | Total operation time |
+| Framework  | Total operation time, ms|
 | ------------- | ------------- |
-| MicroStream 8.01 HashMap (eager)  | Content Cell  |
-| MicroStream 8.01 LazyHashMap  | Content Cell  |
-| VelvetDB 0.10.2 | Content Cell  |
+| MicroStream 8.01 HashMap (eager)  | 117045  |
+| MicroStream 8.01 LazyHashMap  | 16405  |
+| VelvetDB 0.10.2 | 1697  |
